@@ -28,12 +28,18 @@ function opensevim() {
     if (sevimlilermain.style.display === 'none' || sevimlilermain.style.display === '') {
         sevimlilermain.style.display = 'block';
     }
+if(menu.style.display==='flex'){
+        menu.style.display='none'
+}
 }
 
 function clossevim() {
     if (sevimlilermain.style.display === 'block') {
         sevimlilermain.style.display = 'none';
     }
+    if(menu.style.display==='none'){
+        menu.style.display='flex'
+}
 }
 
 function likead(id) {
